@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+        
     <style>
         body{
          background-color: rgb(182, 133, 255);
@@ -13,8 +13,7 @@
 </head>
 
     
-<body>
-    
+<body>    
     <form action="https://hook.eu2.make.com/3v79iuam6rf96apg3sx7y2almjqck1qc" method="post">
         <fildset>
             <div>
@@ -32,27 +31,25 @@
             <br/>
 
             <div>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" maxlength="10" required>
+                <label for="password1">Password1:</label>
+                <input type="password" id="password1" name="password1" maxlength="10" required>
             </div>
 
             <br/>
 
             <div>
-                <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <label for="password2">Password2:</label>
+                <input type="password" id="password2" name="password2" required>
             </div>
 
             <br/>
 
             <div>
-                <label for="gender">Gender:</label>
-
-                <label for="woman">Woman</label>
-                <input type="radio" id="women" name="gender" value="woman" required>
-                
-                <label for="man">Man</label>
-                <input type="radio" id="man" name="gender" value="man" required>
+                <label for="sex">Sex:</label>
+                <input type="radio" id="male" name="sex" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="female" required>
+                <label for="female">Female</label>
                 
             </div>
 
@@ -64,10 +61,11 @@
             </div>
 
             <br/>
-
+            
             <div>
                 <label for="course">Course:</label>
                 <select id="course" name="course">
+                    <option value="" disabled selected>Select a course</option>
                     <option value="Front-End">Front-End</option>
                     <option value="Fullstack">Fullstack</option>
                     <option value="Python">Python</option>
@@ -84,8 +82,8 @@
             <br/>
 
             <div>
-                <label for="consent">I consent to the processing of my data</label>
-                <input type="checkbox" id="consent" name="consent" required>
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">Agree:</label>
         
             </div>
             
